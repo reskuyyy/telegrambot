@@ -1,6 +1,6 @@
 import TelegramBot from 'node-telegram-bot-api';
 
-const TOKEN = process.env.BOT_TOKEN;
+const TOKEN = process.env.BOT_TOKEN || 'dummy';
 
 const bot = new TelegramBot(TOKEN);
 
